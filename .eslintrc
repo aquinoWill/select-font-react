@@ -32,7 +32,7 @@
       }
     }
   },
-  "ignorePatterns": ["serviceWorker.js", "node_modules/"],
+  "ignorePatterns": ["serviceWorker.js", "reportWebVitals", "node_modules/"],
   "rules": {
     "linebreak-style": 0,
     "no-console": "warn",

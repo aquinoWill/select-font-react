@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import TabComponent from 'components/Tabs'
+import { Main, Title, SubTitle } from 'genericStyled'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <Main role='main'>
+    <Title>Front-end test project</Title>
+    <SubTitle>Please convert the following image into a react widget:</SubTitle>
+    <TabComponent />
+  </Main>
+)
 
-export default App;
+export default App
